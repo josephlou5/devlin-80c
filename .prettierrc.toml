@@ -1,0 +1,45 @@
+# https://prettier.io/docs/options
+"$schema" = "https://www.schemastore.org/prettierrc.json"
+
+printWidth = 80
+# Wrap Markdown text to `printWidth`.
+proseWrap = "always"
+
+tabWidth = 2
+useTabs = false
+
+semi = true
+
+singleQuote = false
+quoteProps = "consistent"
+jsxSingleQuote = false
+
+trailingComma = "es5"
+bracketSpacing = true
+objectWrap = "preserve"
+arrowParens = "always"
+
+checkIgnorePragma = true
+endOfLine = "lf"
+embeddedLanguageFormatting = "auto"
+
+# ===== HTML SETTINGS =====
+# More visual separation between HTML tags and their content.
+bracketSameLine = false
+htmlWhitespaceSensitivity = "css"
+vueIndentScriptAndStyle = true
+singleAttributePerLine = false
+
+plugins = [
+  "prettier-plugin-svelte",
+  "prettier-plugin-tailwindcss",
+  "@trivago/prettier-plugin-sort-imports"
+]
+
+# https://github.com/trivago/prettier-plugin-sort-imports
+importOrder = ["<THIRD_PARTY_MODULES>", "^@", "^[./]"]
+importOrderSortSpecifiers = true
+
+[[overrides]]
+files = "*.svelte"
+options.parser = "svelte"
