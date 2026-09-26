@@ -141,3 +141,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+.lucide {
+  /* Make icons relative to the current font size. */
+  width: 1em;
+  height: 1em;
+}

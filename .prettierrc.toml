@@ -37,7 +37,7 @@ plugins = [
 ]
 
 # https://github.com/trivago/prettier-plugin-sort-imports
-importOrder = ["<THIRD_PARTY_MODULES>", "^@", "^[./]"]
+importOrder = ["<THIRD_PARTY_MODULES>", "^@", "^\\$", "^[./]"]
 importOrderSortSpecifiers = true
 
 [[overrides]]
