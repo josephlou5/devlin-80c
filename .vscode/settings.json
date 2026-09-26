@@ -1,0 +1,15 @@
+{
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.codeActionsOnSave": {
+      // Turn this off and use the Prettier plugin instead.
+      "source.organizeImports": "never"
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      // Turn this off and use the Prettier plugin instead.
+      "source.organizeImports": "never"
+    }
+  }
+}

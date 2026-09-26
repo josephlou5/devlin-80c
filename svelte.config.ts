@@ -11,12 +11,12 @@ const config = {
     // https://svelte.dev/docs/kit/adapter-static
     adapter: adapter({
       // Generate a fallback page during build.
-			fallback: "404.html",
-			strict: true,
-		}),
+      fallback: "404.html",
+      strict: true,
+    }),
     paths: {
-			base: process.argv.includes("dev") ? "" : process.env.BASE_PATH
-		},
+      base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
+    },
     alias: {
       $components: "src/lib/components",
       $lib: "src/lib",

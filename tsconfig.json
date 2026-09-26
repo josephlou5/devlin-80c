@@ -8,7 +8,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "moduleResolution": "bundler",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"]
 }
